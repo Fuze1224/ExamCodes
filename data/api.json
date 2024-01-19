@@ -1,0 +1,32 @@
+{
+    "people":[
+    {
+        "id": 1,
+        "name": "Fuze Watson",
+        "job": "Developer",
+        "univer": "Tokyo University",
+        "avatar": "https://picsum.photos/150"
+    },
+    {
+        "id": 3,
+        "name": "Jack Vorobey",
+        "job": "Blogger",
+        "univer": "Stanford University",
+        "avatar": "https://picsum.photos/150"
+    },
+    {
+        "id": 4,
+        "name": "Alex Adamson",
+        "job": "Writer",
+        "univer": "California University",
+        "avatar": "https://picsum.photos/150"
+    },
+    {
+        "id": 5,
+        "name": "Sheyla Miquel",
+        "job": "Teacher",
+        "univer": "Webster University",
+        "avatar": "https://picsum.photos/150"
+    }
+]
+}

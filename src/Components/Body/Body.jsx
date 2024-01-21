@@ -10,9 +10,9 @@ import Rasm3 from '../Mercyless.jpg'
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
-    <img src={Rasm} onDragStart={handleDragStart} role="presentation" />,
-    <img src={Rasm2} onDragStart={handleDragStart} role="presentation" />,
-    <img src={Rasm3} onDragStart={handleDragStart} role="presentation" />,
+    <img className='h-96 m-auto' src={Rasm} onDragStart={handleDragStart} role="presentation" />,
+    <img className='h-96 m-auto' src={Rasm2} onDragStart={handleDragStart} role="presentation" />,
+    <img className='h-96 m-auto' src={Rasm3} onDragStart={handleDragStart} role="presentation" />,
   ];
 
 const Body = () => {
@@ -61,8 +61,10 @@ const Body = () => {
         <AliceCarousel 
          mouseTracking items={items}
          activeIndex={1}
-         animationDuration={1000}
+         animationDuration={1500}
          autoPlay={true}
+         autoPlayControls={true}
+         infinite={true}
          />
     </div>
   )
